@@ -1,0 +1,471 @@
+.navbar {
+    height: 160px; /* Adjust the height as needed */
+    align-items: center; /* Vertically centers content */
+}
+
+/* Optional: Adjust padding for navbar links for better spacing */
+.navbar-nav .nav-link {
+    padding: 20px 10px;
+}
+.navbar-brand {
+    font-size: 40px; /* Larger font size */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    letter-spacing: -1.5px;
+    
+}
+
+
+
+.navbar-brand small {
+    color: red; /* Set the text color to red */
+}
+.navbar-brand small {
+    font-size: 17px; /* Adjust to your desired font size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-item .nav-link {
+    font-size: 18px; /* Adjust to your desired font size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.nav-item {
+    margin-right: 15px; /* Add spacing to the right of each nav item */
+}
+.img{width: 100%;}
+
+.Welcome {
+text-align: center;
+}
+.Well {
+    text-align: center;
+    font-size: 10px;
+    padding: 30px;
+    padding-right: 30px;
+    
+    }
+
+
+
+/* Parent container to center content */
+.center-container {
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;        /* Centers vertically */
+                 /* Full viewport height */
+    margin: 0;                  /* Remove any default margin */
+    padding: 0;                 /* Remove padding */
+}
+
+/* Centered text styling */
+.Well {
+    text-align: center;         /* Ensures text is centered */
+    font-size: 1.5rem;          /* Adjust font size */
+    line-height: 1.6;           /* Improve line spacing */
+    max-width: 80%;             /* Set a max width for readability */
+    margin: 0 auto;             /* Center horizontally */
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container for the Programs */
+.program-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+/* Individual Program Section */
+.program-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Reverse layout for Middle School */
+.program-section.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Text Section */
+.program-text {
+    flex: 1;
+    padding: 40px;
+}
+
+.program-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.program-text p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.program-button {
+    background-color: #bbb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.program-button:hover {
+    background-color: #888;
+}
+
+/* Image Section */
+.program-image {
+    flex: 1;
+}
+
+.program-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 160px; /* Default height for larger screens */
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    padding: 20px 10px;
+}
+
+.navbar-brand {
+    font-size: 40px; /* Larger font size */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    letter-spacing: -1.5px;
+}
+
+.navbar-brand small {
+    color: red; /* Set the text color to red */
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Welcome Section */
+.Welcome {
+    text-align: center;
+}
+
+.Well {
+    text-align: center;
+    font-size: 1rem;
+    padding: 30px;
+}
+
+/* Container to center content */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Program Section */
+.program-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+/* Individual Program Section */
+.program-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.program-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.program-text {
+    flex: 1;
+    padding: 40px;
+}
+
+.program-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.program-text p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.program-button {
+    background-color: #bbb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.program-button:hover {
+    background-color: #888;
+}
+
+.program-image {
+    flex: 1;
+}
+
+.program-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Mobile and Tablet Responsiveness */
+
+/* On tablets and smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+
+    /* Adjust the Welcome Section */
+    .Welcome {
+        font-size: 2.5rem;
+    }
+
+    .Well {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    /* Adjust Program Section */
+    .program-container {
+        padding: 15px;
+    }
+
+    .program-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .program-text {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .program-image img {
+        width: 80%;
+    }
+
+    .program-button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* On smaller mobile screens */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .Welcome {
+        font-size: 1.8rem;
+    }
+
+    .Well {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    /* Adjust Program Section */
+    .program-container {
+        padding: 10px;
+    }
+
+    .program-section  {
+        flex-direction: column;
+    }
+
+    .program-text {
+        padding: 10px;
+    }
+
+    .program-image img {
+        width: 100%;
+    }
+
+    .program-button {
+        padding: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic styles for navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-items li {
+    margin-right: 20px;
+  }
+  
+  .navbar-items a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Hide the navbar items by default on mobile */
+  @media (max-width: 768px) {
+    .navbar-items {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 10px 0;
+    }
+  
+    /* Show the navbar items when the checkbox is checked */
+    .navbar-toggle-checkbox:checked + .navbar-toggle + .navbar-items {
+      display: flex;
+    }
+  
+    /* Style the toggle button */
+    .navbar-toggle {
+      background-color: #333;
+      border: none;
+      cursor: pointer;
+      display: block;
+    }
+  
+    .navbar-toggle-icon {
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+    }
+  
+    /* Hide the checkbox input */
+    .navbar-toggle-checkbox {
+      display: none;
+    }
+  }
